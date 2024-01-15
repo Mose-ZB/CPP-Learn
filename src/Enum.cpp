@@ -1,11 +1,11 @@
-#include "Enum.h"
+ï»¿#include "Enum.h"
 
 void Log::SetLevel(Level level)
 {
     m_LogLevel = level;
 }
 
-// ÓÉÓÚ Error, Warning, ºÍ Info ·½·¨ÖĞÃ»ÓĞĞŞ¸ÄÈÎºÎ³ÉÔ±±äÁ¿£¬ËùÒÔ½«ÕâĞ©·½·¨±ê¼ÇÎª const¡£
+// 
 
 void Log::Error(const char* message) const
 {

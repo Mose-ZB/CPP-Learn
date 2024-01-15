@@ -1,0 +1,2 @@
+$(SolutionDir)bin\$(Platform)\$(Configuration)\
+$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
