@@ -1,10 +1,15 @@
 #include <iostream>
-#include "Enum.h"
-#include "Constructor.h"
+#include "Point.h"
+#include "Reference.h"
+#include "Class.h"
 
 
 int main()
 {
+
+	// PointTest();
+	ReferenceTest();
+
 	Log log;
 	log.SetLevel(Log::LevelError);
 	log.Info("Hello!");
