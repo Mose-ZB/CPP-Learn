@@ -18,18 +18,24 @@
     <ClCompile Include="src\Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\Enum.cpp">
+    <ClCompile Include="src\Class.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\Constructor.cpp">
+    <ClCompile Include="src\Point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Reference.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Enum.h">
+    <ClInclude Include="src\Class.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Constructor.h">
+    <ClInclude Include="src\Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Reference.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

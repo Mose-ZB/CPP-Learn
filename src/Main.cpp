@@ -3,7 +3,8 @@
 #include "Reference.h"
 #include "Class.h"
 
-
+// external linkage 它会去寻找其他文件中的同名变量
+extern int s_Variable;
 int main()
 {
 

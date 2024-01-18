@@ -143,13 +143,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Constructor.cpp" />
-    <ClCompile Include="src\Enum.cpp" />
+    <ClCompile Include="src\Reference.cpp" />
+    <ClCompile Include="src\Point.cpp" />
+    <ClCompile Include="src\Class.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Constructor.h" />
-    <ClInclude Include="src\Enum.h" />
+    <ClInclude Include="src\Reference.h" />
+    <ClInclude Include="src\Point.h" />
+    <ClInclude Include="src\Class.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
