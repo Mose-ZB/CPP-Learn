@@ -39,7 +39,7 @@ void Print(StaticEntity e)
 int StaticEntity::s_x;
 int StaticEntity::s_y;
 
-// 局部静态变量
+// 局部静态变量 可以在任何作用域中声明，它的生命周期跟程序一样长，但是它的作用域只在函数内部，函数结束后，变量仍然存在，但是不能再使用了。
 static void  s_Function()
 {
 	// 局部静态变量在程序第一次执行到该变量的声明语句时被初始化，即使该变量定义在一个函数内，但它的生命周期跟程序一样长。还可以在类似if/else中使用

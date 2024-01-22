@@ -4,13 +4,14 @@
 class Log
 {
 public:
-    // 枚举
+    // 枚举类
     enum Level
     {
         LevelError = 0, LevelWarning, LevelInfo
     };
 
 private:
+    // mutable 关键字可以用来修饰类的成员变量，被修饰的成员变量将永远处于可变的状态，即使在一个const函数中。
     mutable Level m_LogLevel = LevelInfo;
 
 public:
@@ -22,7 +23,7 @@ public:
 
 class Entity {
 public:
-    // 构造函数
+    // 构造函数 用于初始化类的成员变量
     Entity(float x, float y);
     void print() const;
 
